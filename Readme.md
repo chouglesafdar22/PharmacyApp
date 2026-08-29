@@ -26,24 +26,31 @@ A desktop application for handling day-to-day pharmacy operations — medicine i
 ## Application Modules
 
 ### Login
+
 Handles authentication for authorized access to the application.
 
 ### Dashboard
+
 Main landing area after login, giving access to all other modules.
 
 ### Medicine Management
+
 Add, update, delete, and search medicines, including stock and expiry tracking.
 
 ### Supplier Management
+
 Manage and search supplier records.
 
 ### Billing
+
 Handles medicine selection, quantity, GST, discounts, total calculation, and bill generation.
 
 ### Alerts
+
 Shows low-stock medicines and medicines nearing expiry.
 
 ### Reports
+
 Sales reports across daily, weekly, and monthly periods.
 
 ## Project Structure
@@ -80,7 +87,7 @@ PharmacyApp/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PharmacyApp.git
+git clone https://github.com/chouglesafdar22/PharmacyApp.git
 ```
 
 Move into the project directory:
@@ -107,18 +114,21 @@ The application uses SQLite for local data storage. The database file is exclude
 
 ## Screenshots
 
-Add screenshots of the application here.
+![Login Screen](./images/login.png)
 
-```markdown
-![Login Screen](screenshots/login.png)
-![Dashboard](screenshots/dashboard.png)
-![Manage Medicines](screenshots/manage-medicines.png)
-![Manage Suppliers](screenshots/manage-suppliers.png)
-![Billing System](screenshots/billing-system.png)
-![Bill](screenshots/bill.png)
-![Reports](screenshots/reports.png)
-![Alerts](screenshots/alerts.png)
-```
+![Dashboard](./images/dashboard.png)
+
+![Manage Medicines](./images/manage-medicines.png)
+
+![Manage Suppliers](./images/manage-suppliers.png)
+
+![Billing System](./images/billing-system.png)
+
+![Bill](./images/bill.png)
+
+![Reports](./images/reports.png)
+
+![Alerts](./images/alerts.png)
 
 ## What I Built
 
@@ -137,7 +147,7 @@ This project is a desktop-based solution for managing the core operations of a p
 ## Author
 
 **Safdar Chougle**
-Full-Stack Developer
+Full-Stack Engineer
 
 ## License
 
