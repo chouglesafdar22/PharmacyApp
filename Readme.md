@@ -1,14 +1,11 @@
 ﻿# Pharmacy Management System
 
-A desktop application built to manage common pharmacy operations such as medicine inventory, suppliers, billing, stock alerts, and sales reports.
-
-The application provides a single interface for handling day-to-day pharmacy tasks instead of maintaining separate manual records.
+A desktop application for handling day-to-day pharmacy operations — medicine inventory, suppliers, billing, stock alerts, and sales reports — from a single interface instead of scattered manual records.
 
 ## Features
 
 - Admin login and access control
-- Add and manage medicines
-- Search and update medicine records
+- Add, update, delete, and search medicines
 - Track medicine stock and expiry dates
 - Manage supplier information
 - Create and manage customer bills
@@ -29,32 +26,25 @@ The application provides a single interface for handling day-to-day pharmacy tas
 ## Application Modules
 
 ### Login
-
-Provides the login interface for authorized access to the application.
+Handles authentication for authorized access to the application.
 
 ### Dashboard
-
-Acts as the main area of the application and provides access to the different pharmacy management modules.
+Main landing area after login, giving access to all other modules.
 
 ### Medicine Management
-
-Allows medicines to be added, updated, deleted, and searched. Stock and expiry information can also be maintained.
+Add, update, delete, and search medicines, including stock and expiry tracking.
 
 ### Supplier Management
-
-Provides functionality for managing supplier records and searching existing suppliers.
+Manage and search supplier records.
 
 ### Billing
-
-Handles the billing process, including medicine selection, quantity, GST, discounts, total calculation, and bill generation.
+Handles medicine selection, quantity, GST, discounts, total calculation, and bill generation.
 
 ### Alerts
-
-Displays important inventory information such as low-stock medicines and medicines approaching expiry.
+Shows low-stock medicines and medicines nearing expiry.
 
 ### Reports
-
-Provides sales reports that can be used to review pharmacy activity over different time periods.
+Sales reports across daily, weekly, and monthly periods.
 
 ## Project Structure
 
@@ -76,3 +66,79 @@ PharmacyApp/
 ├── PharmacyApp.sln
 ├── .gitignore
 └── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- pip
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/PharmacyApp.git
+```
+
+Move into the project directory:
+
+```bash
+cd PharmacyApp
+```
+
+Install PyQt5:
+
+```bash
+pip install PyQt5
+```
+
+### Run the Application
+
+```bash
+python main.py
+```
+
+## Database
+
+The application uses SQLite for local data storage. The database file is excluded from the repository via `.gitignore`, keeping the local database separate from the source code so each installation maintains its own data.
+
+## Screenshots
+
+Add screenshots of the application here.
+
+```markdown
+![Login Screen](screenshots/login.png)
+![Dashboard](screenshots/dashboard.png)
+![Manage Medicines](screenshots/manage-medicines.png)
+![Manage Suppliers](screenshots/manage-suppliers.png)
+![Billing System](screenshots/billing-system.png)
+![Bill](screenshots/bill.png)
+![Reports](screenshots/reports.png)
+![Alerts](screenshots/alerts.png)
+```
+
+## What I Built
+
+This project is a desktop-based solution for managing the core operations of a pharmacy — inventory, suppliers, billing, alerts, and reporting — brought together into one application, with a focus on keeping the workflow simple.
+
+## Future Improvements
+
+- Role-based permissions for different staff members
+- Automated database backups
+- Cloud-based data synchronization
+- Multi-branch pharmacy support
+- Improved analytics and dashboards
+- More detailed inventory history
+- Online deployment or web-based version
+
+## Author
+
+**Safdar Chougle**
+Full-Stack Developer
+
+## License
+
+This project is available for educational and portfolio purposes.
